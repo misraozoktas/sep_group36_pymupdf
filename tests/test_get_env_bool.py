@@ -31,17 +31,17 @@ def print_coverage():
 def  test_get_env_bool_default_isOne_returns_true():
     os.environ['VAR'] = '1'
     result = get_env_bool('VAR', 1)
-    print_coverage()
 
+  
 def  test_get_env_bool_default_isZero_returns_false():
     os.environ['VAR'] = '0'
     result = get_env_bool('VAR', 0)
-    print_coverage()
 
+  
 def  test_get_env_bool_default_isNone_returns_default():
     del os.environ['VAR']
     result = get_env_bool('VAR', 0)
-    print_coverage()
+
 
 def  test_get_env_bool_default_unrecognized_returns_assertion():
     os.environ['VAR'] = 'unrecognized'
@@ -49,9 +49,19 @@ def  test_get_env_bool_default_unrecognized_returns_assertion():
         result = get_env_bool('VAR', 1)
     except AssertionError as e:
         print(f"AssertionError: {e}")
-    print_coverage()
 
+def calculate_coverage():
+    hit_branches = 0
+    for branch, hit in branch_coverage.items():
+        if hit:
+          hit_branches = hit_branches + 1
+    total_branches = len(branch_coverage)
+    coverage = (hit_branches / total_branches) * 100
+    print("Coverage is", coverage, "%")
+   
 test_get_env_bool_default_isOne_returns_true()
 test_get_env_bool_default_isZero_returns_false()
 test_get_env_bool_default_isNone_returns_default()
 test_get_env_bool_default_unrecognized_returns_assertion()
+print_coverage()
+calculate_coverage()
