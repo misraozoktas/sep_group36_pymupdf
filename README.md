@@ -76,12 +76,14 @@ Misra Ozoktash:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/30971c7254454080a7a691ff2133209d9edc7d79/tests/test_JM_INT_ITEM.py
 		Screenshot of the Coverage Results Output:
+  
 ![Coverage Result Output](images/CT_JM_INT_ITEM.png)
 
 	JM_UnicodeFromStr:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/30971c7254454080a7a691ff2133209d9edc7d79/tests/test_JM_UnicodeFromStr.py
 		Screenshot of the Coverage Results Output:
+  
 ![Coverage Result Output](images/CT_JM_UnicodeFromStr.png)
 
 
@@ -179,9 +181,11 @@ JM_INT_ITEM:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/4a3da66b36ba65331044bdedd36796cc83f19353
 
 		Screenshot of the Old Coverage Results:
+  
 ![Old Coverage Result](images/CI_JM_INT_ITEM_1.png)
 
 		Screenshot of the New Coverage Results:
+  
 ![New Coverage Result](images/CI_JM_INT_ITEM_2.png)
 
 Reason for Coverage Improvement: 
@@ -192,9 +196,11 @@ JM_UnicodeFromStr:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/4a3da66b36ba65331044bdedd36796cc83f19353
 
 		Screenshot of the Old Coverage Results:
+  
 ![Old Coverage Result](images/CI_JM_UnicodeFromStr_1.png)
 
 		Screenshot of the New Coverage Results:
+  
 ![New Coverage Result](images/CI_JM_UnicodeFromStr_2.png)
 
 Reason for Coverage Improvement: 
