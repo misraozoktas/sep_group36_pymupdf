@@ -50,14 +50,14 @@ Turkan Badalzade:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/1a52e6554580bda141eb44f34f6dc49aa2937e5e/tests/test_JM_norm_rotation.py
 		Screenshot of the Coverage Results Output:
-    ![Own Coverage Result](images/own-norm.png)
+    ![Own Coverage Result](images/JM_norm_Rotation_own_coverage.png)
 
 
 	JM_color_FromSequence:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/1a52e6554580bda141eb44f34f6dc49aa2937e5e/tests/test_JM_color_FromSequence.py
 		Screenshot of the Coverage Results Output:
-    ![Own Coverage Result](images/own-color.png)
+    ![Own Coverage Result](images/JM_color_FromSequence_own_coverage.png)
 
 Erin Elagoz:
 	set_stream:
