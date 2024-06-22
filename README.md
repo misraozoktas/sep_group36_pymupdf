@@ -130,9 +130,11 @@ test_JM_norm_rotation:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/d089b154783fa50ce27508faf8d5260c8508b9cb
 
 		Screenshot of the Old Coverage Results:
+   ![Old Coverage Result](images/norm_rotation_old_coverage.png)
 
 
 		Screenshot of the New Coverage Results:
+   ![New Coverage Result](images/norm_rotation_new_coverage.png)
 
 
 Reason for Coverage Improvement:
@@ -143,9 +145,11 @@ test_JM_color_FromSequence:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/d089b154783fa50ce27508faf8d5260c8508b9cb
 
 		Screenshot of the Old Coverage Results:
+   ![Old Coverage Result](images/color_FromSequence_old_coverage.png)
 
 
 		Screenshot of the New Coverage Results:
+   ![New Coverage Result](images/color_FromSequence_new_coverage.png)
 
 
 Reason for Coverage Improvement:
