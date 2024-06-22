@@ -76,13 +76,13 @@ Misra Ozoktash:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/30971c7254454080a7a691ff2133209d9edc7d79/tests/test_JM_INT_ITEM.py
 		Screenshot of the Coverage Results Output:
-
+![Coverage Result Output](images/CT_JM_INT_ITEM.png)
 
 	JM_UnicodeFromStr:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/30971c7254454080a7a691ff2133209d9edc7d79/tests/test_JM_UnicodeFromStr.py
 		Screenshot of the Coverage Results Output:
-
+![Coverage Result Output](images/CT_JM_UnicodeFromStr.png)
 
 
 ## Coverage improvement
@@ -182,7 +182,7 @@ https://github.com/misraozoktas/sep_group36_pymupdf/commit/4a3da66b36ba65331044b
 ![Old Coverage Result](images/CI_JM_INT_ITEM_1.png)
 
 		Screenshot of the New Coverage Results:
-
+![New Coverage Result](images/CI_JM_INT_ITEM_2.png)
 
 Reason for Coverage Improvement: 
 As it can be seen from the screenshots above, there has been a 8% increase on the coverage test result from 89% to 97%. This is a result of adding a number of functions of different test cases that are for covering different branches. I have made sure to add at least one test case for each branch. For example, there was an improvement in the coverage when a function was added to check the test case for an empty object.
@@ -192,10 +192,10 @@ JM_UnicodeFromStr:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/4a3da66b36ba65331044bdedd36796cc83f19353
 
 		Screenshot of the Old Coverage Results:
-
+![Old Coverage Result](images/CI_JM_UnicodeFromStr_1.png)
 
 		Screenshot of the New Coverage Results:
-
+![New Coverage Result](images/CI_JM_UnicodeFromStr_2.png)
 
 Reason for Coverage Improvement: 
 An improvement can be seen from the screenshots above that the percentage result of the coverage test increased from 95% to 97%, a 2% increase. Even though the test was already a high result, with the improvements made to the code, a percentage rise is achieved. To achieve these results, I have added different functions that have at least one test case for each branch, making sure that all branches have been covered. For example, a test case has been written for a byte that will return a result of the decoded version of the byte. This has helped make an improvement in the coverage test.
