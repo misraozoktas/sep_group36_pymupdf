@@ -38,12 +38,14 @@ int_rc:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/bbe7db8881b4684f3206fbf6afa95852c5f56061/tests/test_int_rc.py
 Screenshot of the Coverage Results Output:
 
+![Coverage Result Output](images/aaaowncoveragegetenvbool.png)
 
 get_env_bool:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/bbe7db8881b4684f3206fbf6afa95852c5f56061/tests/test_get_env_bool.py
 		Screenshot of the Coverage Results Output:
 
+![Coverage Result Output](images/aaaowncoverageintrc.png)
 
 Turkan Badalzade:
 	JM_norm_rotation:
@@ -99,10 +101,11 @@ Nehir Altinkaya:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/32b4a9c23be4f3435234e569a1a8208ec1d66fd0
 
 		Screenshot of the Old Coverage Results:
-
+![Coverage Result Output](images/aaaoldcoverageintrc.png)
 
 		Screenshot of the New Coverage Results:
 
+![Coverage Result Output](images/aaanewcoverageintrc.png)
 
 Reason for Coverage Improvement:
 The coverage has improved by 2% as can also be seen from the images above. The coverage has improved when functions were made for test cases and new test cases were added as functions for covering different branches. For instance, when the case “is not positive or zero”, an improvement has been observed. 
@@ -112,10 +115,10 @@ get_env_bool:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/32b4a9c23be4f3435234e569a1a8208ec1d66fd0
 
 		Screenshot of the Old Coverage Results:
-
+![Coverage Result Output](images/aaaoldcoveragegetenvbool.png)
 
 		Screenshot of the New Coverage Results:
-
+![Coverage Result Output](images/aaaowncoveragegetenvbool.png)
 
 Reason for Coverage Improvement:
 The coverage has improved by 6% which can also be seen from the images above. An improvement was observed in the coverage when  functions were made for test cases and new test cases were added to the test file, as functions, for covering different branches. For example, there were improvements in the coverage when the test cases for the branches returning true, returning false, returning default and returning assertion were added individually . 
