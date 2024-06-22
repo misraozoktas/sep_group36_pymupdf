@@ -38,14 +38,14 @@ int_rc:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/bbe7db8881b4684f3206fbf6afa95852c5f56061/tests/test_int_rc.py
 Screenshot of the Coverage Results Output:
 
-![Coverage Result Output](images/aaaowncoveragegetenvbool.png)
+![Coverage Result Output](images/aaaowncoverageintrc.png)
 
 get_env_bool:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/bbe7db8881b4684f3206fbf6afa95852c5f56061/tests/test_get_env_bool.py
 		Screenshot of the Coverage Results Output:
 
-![Coverage Result Output](images/aaaowncoverageintrc.png)
+![Coverage Result Output](images/aaaowncoveragegetenvbool.png)
 
 Turkan Badalzade:
 	JM_norm_rotation:
@@ -118,7 +118,7 @@ https://github.com/misraozoktas/sep_group36_pymupdf/commit/32b4a9c23be4f3435234e
 ![Coverage Result Output](images/aaaoldcoveragegetenvbool.png)
 
 		Screenshot of the New Coverage Results:
-![Coverage Result Output](images/aaaowncoveragegetenvbool.png)
+![Coverage Result Output](images/aaanewcoveragegetenvbool.png)
 
 Reason for Coverage Improvement:
 The coverage has improved by 6% which can also be seen from the images above. An improvement was observed in the coverage when  functions were made for test cases and new test cases were added to the test file, as functions, for covering different branches. For example, there were improvements in the coverage when the test cases for the branches returning true, returning false, returning default and returning assertion were added individually . 
