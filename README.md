@@ -149,7 +149,7 @@ https://github.com/misraozoktas/sep_group36_pymupdf/commit/d089b154783fa50ce2750
 
 
 		Screenshot of the New Coverage Results:
-   ![New Coverage Result](images/color_FromSequence_new_coverage.png)
+   ![New Coverage Result](images/color_fromSequence_new_coverage.png)
 
 
 Reason for Coverage Improvement:
