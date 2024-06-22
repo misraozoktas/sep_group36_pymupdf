@@ -66,14 +66,14 @@ Erin Elagoz:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/8476e20fffc47eff0a310b06ac5540e0f0141cd2/tests/test_set_stream.py
 		Screenshot of the Coverage Results Output:
-
+![Coverage Result Output](images/set_stream(owntool).png)
 
 	get_env_int:
 		Link:
 https://github.com/misraozoktas/sep_group36_pymupdf/blob/8476e20fffc47eff0a310b06ac5540e0f0141cd2/tests/test_get_env_int.py
 
 		Screenshot of the Coverage Results Output:
-
+![Coverage Result Output](images/get_env_int(owntool).png)
 
 Misra Ozoktash:
 	JM_INT_ITEM:
@@ -162,10 +162,10 @@ set_stream:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/aea7bb3128d968662b2deaf6db96459ee153aab2
 
 		Screenshot of the Old Coverage Results:
-
+![Old Coverage Result](images/set_stream(init).png)
 
 		Screenshot of the New Coverage Results:
-
+![New Coverage Result](images/set_stream(final).png)
 
 Reason for Coverage Improvement:
 The coverage results were increased by %6 after making functions for each test and calling them. All the if cases were being executed except the first one which was “If t is None”. After adding the last test case where t has the value “none”, the first case is also executed and the coverage further increased.
@@ -175,10 +175,10 @@ get_env_int:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/aea7bb3128d968662b2deaf6db96459ee153aab2
 
 		Screenshot of the Old Coverage Results:
-
+![Old Coverage Result](images/get_env_int(init).png)
 
 		Screenshot of the New Coverage Results:
-
+![New Coverage Result](images/get_env_int(final).png)
 
 Reason for Coverage Improvement:
 The coverage results were also increased by %9 in this test after writing separate functions for each test and calling them, which was the main reason. Additionally, I have added a test case to further improve the coverage result. I have changed the variable so that the returned integer is different, making sure all the if cases have been executed.
