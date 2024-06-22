@@ -179,7 +179,7 @@ JM_INT_ITEM:
 https://github.com/misraozoktas/sep_group36_pymupdf/commit/4a3da66b36ba65331044bdedd36796cc83f19353
 
 		Screenshot of the Old Coverage Results:
-[Old Coverage Result](images/CI - JM_INT_ITEM - 1.png)
+![Old Coverage Result](images/CI_JM_INT_ITEM_1.png)
 
 		Screenshot of the New Coverage Results:
 
